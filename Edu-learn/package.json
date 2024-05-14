@@ -1,0 +1,11 @@
+{
+  "name": "edu-learn",
+  "version": "1.0.0",
+  "description": "EDU-LEARN-WEB-APPLICATION",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "EDU-LEARN",
+  "license": "ISC"
+}

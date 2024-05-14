@@ -1,0 +1,18 @@
+'Log files:
+C:\Users\s566466\f23wa26bathala\npm-cache\_logs\2024-05-05T05_41_30_036Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: e-learning-platform@0.0.0
+Found: jasmine-core@2.99.1
+node_modules/jasmine-core
+  dev jasmine-core@"~2.99.1" from the root project
+
+Could not resolve dependency:
+peer jasmine-core@"^4.0.0 || ^5.0.0" from karma-jasmine-html-reporter@2.1.0
+node_modules/karma-jasmine-html-reporter
+  dev karma-jasmine-html-reporter@"2.1.0" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.

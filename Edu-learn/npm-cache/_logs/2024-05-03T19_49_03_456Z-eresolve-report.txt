@@ -1,0 +1,32 @@
+'Log files:
+C:\Users\s566466\f23wa26bathala\npm-cache\_logs\2024-05-03T19_49_03_456Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: @angular-devkit/build-angular@17.3.6
+Found: typescript@3.1.6
+node_modules/typescript
+  peer typescript@">=2.1.0 || >=2.1.0-dev || >=2.2.0-dev || >=2.3.0-dev || >=2.4.0-dev || >=2.5.0-dev || >=2.6.0-dev || >=2.7.0-dev || >=2.8.0-dev || >=2.9.0-dev" from tslint@5.11.0
+  node_modules/tslint
+    dev tslint@"~5.11.0" from the root project
+  peer typescript@">=2.1.0 || >=2.1.0-dev || >=2.2.0-dev || >=2.3.0-dev || >=2.4.0-dev || >=2.5.0-dev || >=2.6.0-dev || >=2.7.0-dev || >=2.8.0-dev || >=2.9.0-dev || >= 3.0.0-dev || >= 3.1.0-dev" from tsutils@2.29.0
+  node_modules/tsutils
+    tsutils@"^2.27.2" from tslint@5.11.0
+    node_modules/tslint
+      dev tslint@"~5.11.0" from the root project
+  dev typescript@"~3.1.6" from the root project
+
+Could not resolve dependency:
+peer typescript@">=5.2 <5.5" from @angular-devkit/build-angular@17.3.6
+node_modules/@angular-devkit/build-angular
+  dev @angular-devkit/build-angular@"^17.3.6" from the root project
+
+Conflicting peer dependency: typescript@5.4.5
+node_modules/typescript
+  peer typescript@">=5.2 <5.5" from @angular-devkit/build-angular@17.3.6
+  node_modules/@angular-devkit/build-angular
+    dev @angular-devkit/build-angular@"^17.3.6" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.

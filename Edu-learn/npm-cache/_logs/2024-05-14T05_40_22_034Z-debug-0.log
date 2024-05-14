@@ -1,0 +1,15 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\path\to\your\project\node_modules\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.7.0
+2 info using node@v20.13.1
+3 silly config:load:file:C:\path\to\your\project\node_modules\node_modules\npm\npmrc
+4 silly config:load:file:C:\Users\S566466\Documents\GDP\Projects\Edu-learn\.npmrc
+5 silly config:load:file:C:\Users\S566466\.npmrc
+6 silly config:load:file:C:\path\to\your\project\node_modules\etc\npmrc
+7 verbose title npm outdated
+8 verbose argv "outdated"
+9 verbose logfile logs-max:10 dir:C:\Users\s566466\f23wa26bathala\npm-cache\_logs\2024-05-14T05_40_22_034Z-
+10 verbose logfile C:\Users\s566466\f23wa26bathala\npm-cache\_logs\2024-05-14T05_40_22_034Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 verbose exit 0
+14 info ok

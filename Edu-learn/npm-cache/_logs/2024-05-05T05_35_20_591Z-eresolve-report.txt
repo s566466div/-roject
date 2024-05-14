@@ -1,0 +1,66 @@
+'Log files:
+C:\Users\s566466\f23wa26bathala\npm-cache\_logs\2024-05-05T05_35_20_591Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: @angular/common@17.3.7
+Found: rxjs@6.3.3
+node_modules/rxjs
+  rxjs@"~6.3.3" from the root project
+
+Could not resolve dependency:
+peer rxjs@"^6.5.3 || ^7.4.0" from @angular/common@17.3.7
+node_modules/@angular/common
+  peer @angular/common@"17.3.7" from @angular/forms@17.3.7
+  node_modules/@angular/forms
+    @angular/forms@"^17.3.7" from the root project
+  peer @angular/common@"17.3.7" from @angular/platform-browser@17.3.7
+  node_modules/@angular/platform-browser
+    peer @angular/platform-browser@"17.3.7" from @angular/forms@17.3.7
+    node_modules/@angular/forms
+      @angular/forms@"^17.3.7" from the root project
+    peer @angular/platform-browser@"17.3.7" from @angular/platform-browser-dynamic@17.3.7
+    node_modules/@angular/platform-browser-dynamic
+      @angular/platform-browser-dynamic@"^17.3.7" from the root project
+    peer @angular/platform-browser@"17.3.7" from @angular/router@17.3.7
+    node_modules/@angular/router
+      @angular/router@"^17.3.7" from the root project
+    @angular/platform-browser@"^17.3.7" from the root project
+  peer @angular/common@"17.3.7" from @angular/platform-browser-dynamic@17.3.7
+  node_modules/@angular/platform-browser-dynamic
+    @angular/platform-browser-dynamic@"^17.3.7" from the root project
+  peer @angular/common@"17.3.7" from @angular/router@17.3.7
+  node_modules/@angular/router
+    @angular/router@"^17.3.7" from the root project
+  @angular/common@"^17.3.7" from the root project
+
+Conflicting peer dependency: rxjs@7.8.1
+node_modules/rxjs
+  peer rxjs@"^6.5.3 || ^7.4.0" from @angular/common@17.3.7
+  node_modules/@angular/common
+    peer @angular/common@"17.3.7" from @angular/forms@17.3.7
+    node_modules/@angular/forms
+      @angular/forms@"^17.3.7" from the root project
+    peer @angular/common@"17.3.7" from @angular/platform-browser@17.3.7
+    node_modules/@angular/platform-browser
+      peer @angular/platform-browser@"17.3.7" from @angular/forms@17.3.7
+      node_modules/@angular/forms
+        @angular/forms@"^17.3.7" from the root project
+      peer @angular/platform-browser@"17.3.7" from @angular/platform-browser-dynamic@17.3.7
+      node_modules/@angular/platform-browser-dynamic
+        @angular/platform-browser-dynamic@"^17.3.7" from the root project
+      peer @angular/platform-browser@"17.3.7" from @angular/router@17.3.7
+      node_modules/@angular/router
+        @angular/router@"^17.3.7" from the root project
+      @angular/platform-browser@"^17.3.7" from the root project
+    peer @angular/common@"17.3.7" from @angular/platform-browser-dynamic@17.3.7
+    node_modules/@angular/platform-browser-dynamic
+      @angular/platform-browser-dynamic@"^17.3.7" from the root project
+    peer @angular/common@"17.3.7" from @angular/router@17.3.7
+    node_modules/@angular/router
+      @angular/router@"^17.3.7" from the root project
+    @angular/common@"^17.3.7" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.

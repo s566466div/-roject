@@ -1,0 +1,611 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\path\to\your\project\node_modules\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.7.0
+2 info using node@v20.13.1
+3 silly config:load:file:C:\path\to\your\project\node_modules\node_modules\npm\npmrc
+4 silly config:load:file:C:\Users\S566466\Documents\angular Projects\scuoler\.npmrc
+5 silly config:load:file:C:\Users\S566466\.npmrc
+6 silly config:load:file:C:\path\to\your\project\node_modules\etc\npmrc
+7 verbose title npm install react-router-dom
+8 verbose argv "install" "react-router-dom"
+9 verbose logfile logs-max:10 dir:C:\Users\s566466\f23wa26bathala\npm-cache\_logs\2024-05-14T05_00_45_474Z-
+10 verbose logfile C:\Users\s566466\f23wa26bathala\npm-cache\_logs\2024-05-14T05_00_45_474Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest react-router-dom@*
+15 http fetch GET 200 https://registry.npmjs.org/react-router-dom 268ms (cache revalidated)
+16 silly fetch manifest react@>=16.8
+17 http fetch GET 200 https://registry.npmjs.org/react 28ms (cache hit)
+18 silly fetch manifest react-dom@>=16.8
+19 http fetch GET 200 https://registry.npmjs.org/react-dom 27ms (cache hit)
+20 silly placeDep ROOT react-router-dom@6.23.1 OK for: webapp@0.0.0 want: *
+21 silly placeDep ROOT react@18.3.1 OK for: react-router-dom@6.23.1 want: >=16.8
+22 silly placeDep ROOT react-dom@18.3.1 OK for: react-router-dom@6.23.1 want: >=16.8
+23 silly fetch manifest @remix-run/router@1.16.1
+24 silly fetch manifest react-router@6.23.1
+25 silly fetch manifest loose-envify@^1.1.0
+26 silly fetch manifest scheduler@^0.23.2
+27 http fetch GET 200 https://registry.npmjs.org/loose-envify 18ms (cache hit)
+28 http fetch GET 200 https://registry.npmjs.org/scheduler 35ms (cache hit)
+29 http fetch GET 200 https://registry.npmjs.org/react-router 69ms (cache revalidated)
+30 http fetch GET 200 https://registry.npmjs.org/@remix-run%2frouter 198ms (cache revalidated)
+31 silly placeDep ROOT loose-envify@1.4.0 OK for: react@18.3.1 want: ^1.1.0
+32 silly fetch manifest js-tokens@^3.0.0 || ^4.0.0
+33 http fetch GET 200 https://registry.npmjs.org/js-tokens 6ms (cache hit)
+34 silly placeDep ROOT js-tokens@4.0.0 OK for: loose-envify@1.4.0 want: ^3.0.0 || ^4.0.0
+35 silly placeDep ROOT scheduler@0.23.2 OK for: react-dom@18.3.1 want: ^0.23.2
+36 silly placeDep ROOT @remix-run/router@1.16.1 OK for: react-router-dom@6.23.1 want: 1.16.1
+37 silly placeDep ROOT react-router@6.23.1 OK for: react-router-dom@6.23.1 want: 6.23.1
+38 warn EBADENGINE Unsupported engine {
+38 warn EBADENGINE   package: 'webapp@0.0.0',
+38 warn EBADENGINE   required: { node: '18.14.0' },
+38 warn EBADENGINE   current: { node: 'v20.13.1', npm: '10.7.0' }
+38 warn EBADENGINE }
+39 silly reify moves {}
+40 silly audit bulk request {
+40 silly audit   '@mapbox/node-pre-gyp': [ '1.0.11' ],
+40 silly audit   '@socket.io/component-emitter': [ '3.1.0' ],
+40 silly audit   '@types/body-parser': [ '1.19.5' ],
+40 silly audit   '@types/connect': [ '3.4.38' ],
+40 silly audit   '@types/cookie': [ '0.4.1' ],
+40 silly audit   '@types/cors': [ '2.8.17' ],
+40 silly audit   '@types/express': [ '4.17.21' ],
+40 silly audit   '@types/express-serve-static-core': [ '4.17.41' ],
+40 silly audit   '@types/http-errors': [ '2.0.4' ],
+40 silly audit   '@types/mime': [ '1.3.5' ],
+40 silly audit   '@types/node': [ '20.11.5' ],
+40 silly audit   '@types/qs': [ '6.9.11' ],
+40 silly audit   '@types/range-parser': [ '1.2.7' ],
+40 silly audit   '@types/send': [ '0.17.4' ],
+40 silly audit   '@types/serve-static': [ '1.15.5' ],
+40 silly audit   '@types/ws': [ '8.5.10' ],
+40 silly audit   '@types/yauzl': [ '2.10.3' ],
+40 silly audit   abbrev: [ '1.1.1' ],
+40 silly audit   accepts: [ '1.3.8' ],
+40 silly audit   'agent-base': [ '6.0.2' ],
+40 silly audit   debug: [ '4.3.4', '2.6.9', '3.2.7' ],
+40 silly audit   ms: [ '2.1.2', '2.1.3', '2.0.0' ],
+40 silly audit   'ansi-align': [ '2.0.0' ],
+40 silly audit   'ansi-regex': [ '3.0.1', '5.0.1' ],
+40 silly audit   'is-fullwidth-code-point': [ '2.0.0', '3.0.0' ],
+40 silly audit   'string-width': [ '2.1.1', '4.2.3' ],
+40 silly audit   'strip-ansi': [ '4.0.0', '6.0.1' ],
+40 silly audit   'ansi-styles': [ '3.2.1', '4.3.0' ],
+40 silly audit   anymatch: [ '2.0.0' ],
+40 silly audit   'normalize-path': [ '2.1.1', '3.0.0' ],
+40 silly audit   aproba: [ '2.0.0' ],
+40 silly audit   'are-we-there-yet': [ '2.0.0' ],
+40 silly audit   'arr-diff': [ '4.0.0' ],
+40 silly audit   'arr-flatten': [ '1.1.0' ],
+40 silly audit   'arr-union': [ '3.1.0' ],
+40 silly audit   'array-flatten': [ '1.1.1' ],
+40 silly audit   'array-unique': [ '0.3.2' ],
+40 silly audit   'assign-symbols': [ '1.0.0' ],
+40 silly audit   'async-each': [ '1.0.6' ],
+40 silly audit   'at-least-node': [ '1.0.0' ],
+40 silly audit   atob: [ '2.1.2' ],
+40 silly audit   'balanced-match': [ '1.0.2' ],
+40 silly audit   base: [ '0.11.2' ],
+40 silly audit   'define-property': [ '1.0.0', '0.2.5', '2.0.2' ],
+40 silly audit   base64id: [ '2.0.0' ],
+40 silly audit   'basic-auth': [ '2.0.1' ],
+40 silly audit   'safe-buffer': [ '5.1.2', '5.2.1' ],
+40 silly audit   bcrypt: [ '5.1.1' ],
+40 silly audit   'binary-extensions': [ '1.13.1' ],
+40 silly audit   bindings: [ '1.5.0' ],
+40 silly audit   'body-parser': [ '1.20.1' ],
+40 silly audit   'http-errors': [ '2.0.0', '1.7.3', '1.6.3', '1.8.1' ],
+40 silly audit   inherits: [ '2.0.4', '2.0.3' ],
+40 silly audit   boxen: [ '1.3.0' ],
+40 silly audit   'brace-expansion': [ '1.1.11' ],
+40 silly audit   braces: [ '2.3.2' ],
+40 silly audit   'buffer-crc32': [ '0.2.13' ],
+40 silly audit   'buffer-equal-constant-time': [ '1.0.1' ],
+40 silly audit   'buffer-writer': [ '2.0.0' ],
+40 silly audit   bytes: [ '3.1.2' ],
+40 silly audit   'cache-base': [ '1.0.1' ],
+40 silly audit   'call-bind': [ '1.0.5' ],
+40 silly audit   camelcase: [ '4.1.0' ],
+40 silly audit   'capture-stack-trace': [ '1.0.2' ],
+40 silly audit   chalk: [ '2.4.2' ],
+40 silly audit   chokidar: [ '2.1.8' ],
+40 silly audit   chownr: [ '2.0.0' ],
+40 silly audit   'ci-info': [ '1.6.0' ],
+40 silly audit   'class-utils': [ '0.3.6' ],
+40 silly audit   'is-descriptor': [ '0.1.7', '1.0.3' ],
+40 silly audit   'cli-boxes': [ '1.0.0' ],
+40 silly audit   cliui: [ '8.0.1' ],
+40 silly audit   cloudinary: [ '1.41.3' ],
+40 silly audit   'cloudinary-core': [ '2.13.0' ],
+40 silly audit   'collection-visit': [ '1.0.0' ],
+40 silly audit   'color-convert': [ '1.9.3', '2.0.1' ],
+40 silly audit   'color-name': [ '1.1.3', '1.1.4' ],
+40 silly audit   'color-support': [ '1.1.3' ],
+40 silly audit   'component-emitter': [ '1.3.1' ],
+40 silly audit   'concat-map': [ '0.0.1' ],
+40 silly audit   configstore: [ '3.1.5' ],
+40 silly audit   'make-dir': [ '1.3.0', '3.1.0' ],
+40 silly audit   'connect-multiparty': [ '2.2.0' ],
+40 silly audit   depd: [ '1.1.2', '2.0.0' ],
+40 silly audit   'on-finished': [ '2.3.0', '2.4.1' ],
+40 silly audit   qs: [ '6.5.3', '6.11.0' ],
+40 silly audit   setprototypeof: [ '1.1.1', '1.1.0', '1.2.0' ],
+40 silly audit   statuses: [ '1.5.0', '2.0.1' ],
+40 silly audit   toidentifier: [ '1.0.0', '1.0.1' ],
+40 silly audit   'console-control-strings': [ '1.1.0' ],
+40 silly audit   'content-disposition': [ '0.5.4' ],
+40 silly audit   'content-type': [ '1.0.5' ],
+40 silly audit   cookie: [ '0.4.1', '0.3.1', '0.5.0' ],
+40 silly audit   'cookie-parser': [ '1.4.6' ],
+40 silly audit   'cookie-signature': [ '1.0.6' ],
+40 silly audit   'copy-descriptor': [ '0.1.1' ],
+40 silly audit   'core-js': [ '3.35.0' ],
+40 silly audit   'core-util-is': [ '1.0.3' ],
+40 silly audit   cors: [ '2.8.5' ],
+40 silly audit   crc: [ '3.4.4' ],
+40 silly audit   'create-error-class': [ '3.0.2' ],
+40 silly audit   'cross-spawn': [ '5.1.0' ],
+40 silly audit   'lru-cache': [ '4.1.5', '6.0.0' ],
+40 silly audit   yallist: [ '2.1.2', '4.0.0' ],
+40 silly audit   'crypto-js': [ '4.2.0' ],
+40 silly audit   'crypto-random-string': [ '1.0.0' ],
+40 silly audit   'data-uri-to-buffer': [ '4.0.1' ],
+40 silly audit   'decode-uri-component': [ '0.2.2' ],
+40 silly audit   'deep-extend': [ '0.6.0' ],
+40 silly audit   'define-data-property': [ '1.1.1' ],
+40 silly audit   delegates: [ '1.0.0' ],
+40 silly audit   destroy: [ '1.2.0' ],
+40 silly audit   'detect-libc': [ '2.0.2' ],
+40 silly audit   'dot-prop': [ '4.2.1' ],
+40 silly audit   duplexer3: [ '0.1.5' ],
+40 silly audit   'ecdsa-sig-formatter': [ '1.0.11' ],
+40 silly audit   'ee-first': [ '1.1.1' ],
+40 silly audit   'emoji-regex': [ '8.0.0' ],
+40 silly audit   encodeurl: [ '1.0.2' ],
+40 silly audit   'end-of-stream': [ '1.4.4' ],
+40 silly audit   'engine.io': [ '6.5.4' ],
+40 silly audit   'engine.io-parser': [ '5.2.1' ],
+40 silly audit   ws: [ '8.11.0', '8.16.0' ],
+40 silly audit   escalade: [ '3.1.1' ],
+40 silly audit   'escape-html': [ '1.0.3' ],
+40 silly audit   'escape-string-regexp': [ '1.0.5' ],
+40 silly audit   etag: [ '1.8.1' ],
+40 silly audit   execa: [ '0.7.0' ],
+40 silly audit   'get-stream': [ '3.0.0', '5.2.0' ],
+40 silly audit   'expand-brackets': [ '2.1.4' ],
+40 silly audit   express: [ '4.18.2' ],
+40 silly audit   'express-form-data': [ '2.0.23' ],
+40 silly audit   'express-session': [ '1.15.6' ],
+40 silly audit   'express-sslify': [ '1.2.0' ],
+40 silly audit   'extend-shallow': [ '2.0.1', '3.0.2' ],
+40 silly audit   extglob: [ '2.0.4' ],
+40 silly audit   'extract-zip': [ '2.0.1' ],
+40 silly audit   'fd-slicer': [ '1.1.0' ],
+40 silly audit   'fetch-blob': [ '3.2.0' ],
+40 silly audit   'file-uri-to-path': [ '1.0.0' ],
+40 silly audit   'fill-range': [ '4.0.0' ],
+40 silly audit   finalhandler: [ '1.2.0' ],
+40 silly audit   'for-in': [ '1.0.2' ],
+40 silly audit   'formdata-polyfill': [ '4.0.10' ],
+40 silly audit   forwarded: [ '0.2.0' ],
+40 silly audit   'fragment-cache': [ '0.2.1' ],
+40 silly audit   fresh: [ '0.5.2' ],
+40 silly audit   'fs-extra': [ '9.1.0' ],
+40 silly audit   'fs-minipass': [ '2.1.0' ],
+40 silly audit   minipass: [ '3.3.6', '5.0.0' ],
+40 silly audit   'fs.realpath': [ '1.0.0' ],
+40 silly audit   fsevents: [ '1.2.13' ],
+40 silly audit   'function-bind': [ '1.1.2' ],
+40 silly audit   gauge: [ '3.0.2' ],
+40 silly audit   'get-caller-file': [ '2.0.5' ],
+40 silly audit   'get-intrinsic': [ '1.2.2' ],
+40 silly audit   'get-value': [ '2.0.6' ],
+40 silly audit   glob: [ '7.2.3' ],
+40 silly audit   'glob-parent': [ '3.1.0' ],
+40 silly audit   'is-glob': [ '3.1.0', '4.0.3' ],
+40 silly audit   'global-dirs': [ '0.1.1' ],
+40 silly audit   gopd: [ '1.0.1' ],
+40 silly audit   got: [ '6.7.1' ],
+40 silly audit   'graceful-fs': [ '4.2.11' ],
+40 silly audit   'has-flag': [ '3.0.0' ],
+40 silly audit   'has-property-descriptors': [ '1.0.1' ],
+40 silly audit   'has-proto': [ '1.0.1' ],
+40 silly audit   'has-symbols': [ '1.0.3' ],
+40 silly audit   'has-unicode': [ '2.0.1' ],
+40 silly audit   'has-value': [ '1.0.0', '0.3.1' ],
+40 silly audit   'has-values': [ '1.0.0', '0.1.4' ],
+40 silly audit   'kind-of': [ '4.0.0', '3.2.2', '6.0.3' ],
+40 silly audit   hasown: [ '2.0.0' ],
+40 silly audit   https: [ '1.0.0' ],
+40 silly audit   'https-proxy-agent': [ '5.0.1' ],
+40 silly audit   'iconv-lite': [ '0.4.24' ],
+40 silly audit   'ignore-by-default': [ '1.0.1' ],
+40 silly audit   'import-lazy': [ '2.1.0' ],
+40 silly audit   imurmurhash: [ '0.1.4' ],
+40 silly audit   inflight: [ '1.0.6' ],
+40 silly audit   ini: [ '1.3.8' ],
+40 silly audit   'ipaddr.js': [ '1.9.1' ],
+40 silly audit   'is-accessor-descriptor': [ '1.0.1' ],
+40 silly audit   'is-binary-path': [ '1.0.1' ],
+40 silly audit   'is-buffer': [ '1.1.6' ],
+40 silly audit   'is-ci': [ '1.2.1' ],
+40 silly audit   'is-data-descriptor': [ '1.0.1' ],
+40 silly audit   'is-extendable': [ '0.1.1', '1.0.1' ],
+40 silly audit   'is-extglob': [ '2.1.1' ],
+40 silly audit   'is-installed-globally': [ '0.1.0' ],
+40 silly audit   'is-npm': [ '1.0.0' ],
+40 silly audit   'is-number': [ '3.0.0' ],
+40 silly audit   'is-obj': [ '1.0.1' ],
+40 silly audit   'is-path-inside': [ '1.0.1' ],
+40 silly audit   'is-plain-object': [ '2.0.4' ],
+40 silly audit   'is-redirect': [ '1.0.0' ],
+40 silly audit   'is-retry-allowed': [ '1.2.0' ],
+40 silly audit   'is-stream': [ '1.1.0' ],
+40 silly audit   'is-windows': [ '1.0.2' ],
+40 silly audit   isarray: [ '0.0.1', '1.0.0' ],
+40 silly audit   isexe: [ '2.0.0' ],
+40 silly audit   isobject: [ '3.0.1', '2.1.0' ],
+40 silly audit   jsonfile: [ '6.1.0' ],
+40 silly audit   jsonwebtoken: [ '8.5.1' ],
+40 silly audit   semver: [ '5.7.2', '6.3.1', '7.5.4' ],
+40 silly audit   jwa: [ '1.4.1' ],
+40 silly audit   jws: [ '3.2.2' ],
+40 silly audit   'latest-version': [ '3.1.0' ],
+40 silly audit   libpq: [ '1.8.12' ],
+40 silly audit   lodash: [ '4.17.21' ],
+40 silly audit   'lodash.includes': [ '4.3.0' ],
+40 silly audit   'lodash.isboolean': [ '3.0.3' ],
+40 silly audit   'lodash.isinteger': [ '4.0.4' ],
+40 silly audit   'lodash.isnumber': [ '3.0.3' ],
+40 silly audit   'lodash.isplainobject': [ '4.0.6' ],
+40 silly audit   'lodash.isstring': [ '4.0.1' ],
+40 silly audit   'lodash.once': [ '4.1.1' ],
+40 silly audit   'lowercase-keys': [ '1.0.1' ],
+40 silly audit   'map-cache': [ '0.2.2' ],
+40 silly audit   'map-visit': [ '1.0.0' ],
+40 silly audit   'media-typer': [ '0.3.0' ],
+40 silly audit   'merge-descriptors': [ '1.0.1' ],
+40 silly audit   methods: [ '1.1.2' ],
+40 silly audit   micromatch: [ '3.1.10' ],
+40 silly audit   mime: [ '1.6.0' ],
+40 silly audit   'mime-db': [ '1.52.0' ],
+40 silly audit   'mime-types': [ '2.1.35' ],
+40 silly audit   minimatch: [ '3.1.2' ],
+40 silly audit   minimist: [ '1.2.8' ],
+40 silly audit   minizlib: [ '2.1.2' ],
+40 silly audit   'mixin-deep': [ '1.3.2' ],
+40 silly audit   mkdirp: [ '1.0.4' ],
+40 silly audit   morgan: [ '1.10.0' ],
+40 silly audit   multiparty: [ '4.2.3' ],
+40 silly audit   nan: [ '2.18.0', '1.6.2' ],
+40 silly audit   nanomatch: [ '1.2.13' ],
+40 silly audit   negotiator: [ '0.6.3' ],
+40 silly audit   'node-addon-api': [ '5.1.0' ],
+40 silly audit   'node-domexception': [ '1.0.0' ],
+40 silly audit   'node-fetch': [ '2.7.0', '3.3.2' ],
+40 silly audit   nodemailer: [ '6.9.8' ],
+40 silly audit   nodemon: [ '1.19.4' ],
+40 silly audit   nopt: [ '5.0.0', '1.0.10' ],
+40 silly audit   'npm-run-path': [ '2.0.2' ],
+40 silly audit   npmlog: [ '5.0.1' ],
+40 silly audit   'object-assign': [ '4.1.1' ],
+40 silly audit   'object-copy': [ '0.1.0' ],
+40 silly audit   'object-inspect': [ '1.13.1' ],
+40 silly audit   'object-visit': [ '1.0.1' ],
+40 silly audit   'object.pick': [ '1.3.0' ],
+40 silly audit   'on-headers': [ '1.0.2' ],
+40 silly audit   once: [ '1.4.0' ],
+40 silly audit   'p-finally': [ '1.0.0' ],
+40 silly audit   'package-json': [ '4.0.1' ],
+40 silly audit   'packet-reader': [ '1.0.0' ],
+40 silly audit   parseurl: [ '1.3.3' ],
+40 silly audit   pascalcase: [ '0.1.1' ],
+40 silly audit   'path-dirname': [ '1.0.2' ],
+40 silly audit   'path-is-absolute': [ '1.0.1' ],
+40 silly audit   'path-is-inside': [ '1.0.2' ],
+40 silly audit   'path-key': [ '2.0.1' ],
+40 silly audit   'path-to-regexp': [ '0.1.7' ],
+40 silly audit   peer: [ '1.0.2' ],
+40 silly audit   pend: [ '1.2.0' ],
+40 silly audit   pg: [ '8.11.3' ],
+40 silly audit   'pg-cloudflare': [ '1.1.1' ],
+40 silly audit   'pg-connection-string': [ '2.6.2' ],
+40 silly audit   'pg-int8': [ '1.0.1' ],
+40 silly audit   'pg-native': [ '3.0.1' ],
+40 silly audit   'pg-types': [ '1.13.0', '2.2.0' ],
+40 silly audit   'postgres-array': [ '1.0.3', '2.0.0' ],
+40 silly audit   'readable-stream': [ '1.0.31', '3.6.2', '2.3.8' ],
+40 silly audit   string_decoder: [ '0.10.31', '1.1.1', '1.3.0' ],
+40 silly audit   'pg-pool': [ '3.6.1' ],
+40 silly audit   'pg-protocol': [ '1.6.0' ],
+40 silly audit   'pg-sync': [ '0.2.0' ],
+40 silly audit   pgpass: [ '1.0.5' ],
+40 silly audit   pify: [ '3.0.0' ],
+40 silly audit   'posix-character-classes': [ '0.1.1' ],
+40 silly audit   'postgres-bytea': [ '1.0.0' ],
+40 silly audit   'postgres-date': [ '1.0.7' ],
+40 silly audit   'postgres-interval': [ '1.2.0' ],
+40 silly audit   'prepend-http': [ '1.0.4' ],
+40 silly audit   'process-nextick-args': [ '2.0.1' ],
+40 silly audit   'proxy-addr': [ '2.0.7' ],
+40 silly audit   pseudomap: [ '1.0.2' ],
+40 silly audit   'pstree.remy': [ '1.1.8' ],
+40 silly audit   pump: [ '3.0.0' ],
+40 silly audit   q: [ '1.5.1' ],
+40 silly audit   'random-bytes': [ '1.0.0' ],
+40 silly audit   'range-parser': [ '1.2.1' ],
+40 silly audit   'raw-body': [ '2.5.1' ],
+40 silly audit   rc: [ '1.2.8' ],
+40 silly audit   readdirp: [ '2.2.1' ],
+40 silly audit   'regex-not': [ '1.0.2' ],
+40 silly audit   'registry-auth-token': [ '3.4.0' ],
+40 silly audit   'registry-url': [ '3.1.0' ],
+40 silly audit   'remove-trailing-separator': [ '1.1.0' ],
+40 silly audit   'repeat-element': [ '1.1.4' ],
+40 silly audit   'repeat-string': [ '1.6.1' ],
+40 silly audit   'require-directory': [ '2.1.1' ],
+40 silly audit   'resolve-url': [ '0.2.1' ],
+40 silly audit   ret: [ '0.1.15' ],
+40 silly audit   rimraf: [ '3.0.2' ],
+40 silly audit   'rotating-file-stream': [ '3.2.1' ],
+40 silly audit   'safe-regex': [ '1.1.0' ],
+40 silly audit   'safer-buffer': [ '2.1.2' ],
+40 silly audit   'semver-diff': [ '2.1.0' ],
+40 silly audit   send: [ '0.18.0' ],
+40 silly audit   'serve-static': [ '1.15.0' ],
+40 silly audit   'set-blocking': [ '2.0.0' ],
+40 silly audit   'set-function-length': [ '1.2.0' ],
+40 silly audit   'set-value': [ '2.0.1' ],
+40 silly audit   'shebang-command': [ '1.2.0' ],
+40 silly audit   'shebang-regex': [ '1.0.0' ],
+40 silly audit   'side-channel': [ '1.0.4' ],
+40 silly audit   'signal-exit': [ '3.0.7' ],
+40 silly audit   snapdragon: [ '0.8.2' ],
+40 silly audit   'snapdragon-node': [ '2.1.1' ],
+40 silly audit   'snapdragon-util': [ '3.0.1' ],
+40 silly audit   'socket.io': [ '4.7.4' ],
+40 silly audit   'socket.io-adapter': [ '2.5.2' ],
+40 silly audit   'socket.io-parser': [ '4.2.4' ],
+40 silly audit   'source-map': [ '0.5.7' ],
+40 silly audit   'source-map-resolve': [ '0.5.3' ],
+40 silly audit   'source-map-url': [ '0.4.1' ],
+40 silly audit   'split-string': [ '3.1.0' ],
+40 silly audit   split2: [ '4.2.0' ],
+40 silly audit   'static-extend': [ '0.1.2' ],
+40 silly audit   'strip-eof': [ '1.0.0' ],
+40 silly audit   'strip-json-comments': [ '2.0.1' ],
+40 silly audit   stripe: [ '12.18.0' ],
+40 silly audit   'supports-color': [ '5.5.0' ],
+40 silly audit   tar: [ '6.2.0' ],
+40 silly audit   'term-size': [ '1.2.0' ],
+40 silly audit   'timed-out': [ '4.0.1' ],
+40 silly audit   'to-object-path': [ '0.3.0' ],
+40 silly audit   'to-regex': [ '3.0.2' ],
+40 silly audit   'to-regex-range': [ '2.1.1' ],
+40 silly audit   touch: [ '3.1.0' ],
+40 silly audit   tr46: [ '0.0.3' ],
+40 silly audit   'type-is': [ '1.6.18' ],
+40 silly audit   'uid-safe': [ '2.1.5' ],
+40 silly audit   undefsafe: [ '2.0.5' ],
+40 silly audit   'undici-types': [ '5.26.5' ],
+40 silly audit   'union-value': [ '1.0.1' ],
+40 silly audit   'unique-string': [ '1.0.0' ],
+40 silly audit   universalify: [ '2.0.1' ],
+40 silly audit   unpipe: [ '1.0.0' ],
+40 silly audit   'unset-value': [ '1.0.0' ],
+40 silly audit   'unzip-response': [ '2.0.1' ],
+40 silly audit   upath: [ '1.2.0' ],
+40 silly audit   'update-notifier': [ '2.5.0' ],
+40 silly audit   urix: [ '0.1.0' ],
+40 silly audit   'url-parse-lax': [ '1.0.0' ],
+40 silly audit   use: [ '3.1.1' ],
+40 silly audit   'util-deprecate': [ '1.0.2' ],
+40 silly audit   'utils-merge': [ '1.0.1' ],
+40 silly audit   uuid: [ '8.3.2' ],
+40 silly audit   vary: [ '1.1.2' ],
+40 silly audit   'web-streams-polyfill': [ '3.3.2' ],
+40 silly audit   'webidl-conversions': [ '3.0.1' ],
+40 silly audit   'whatwg-url': [ '5.0.0' ],
+40 silly audit   which: [ '1.3.1' ],
+40 silly audit   'wide-align': [ '1.1.5' ],
+40 silly audit   'widest-line': [ '2.0.1' ],
+40 silly audit   'wrap-ansi': [ '7.0.0' ],
+40 silly audit   wrappy: [ '1.0.2' ],
+40 silly audit   'write-file-atomic': [ '2.4.3' ],
+40 silly audit   'xdg-basedir': [ '3.0.0' ],
+40 silly audit   xtend: [ '4.0.2' ],
+40 silly audit   y18n: [ '5.0.8' ],
+40 silly audit   yargs: [ '17.7.2' ],
+40 silly audit   'yargs-parser': [ '21.1.1' ],
+40 silly audit   yauzl: [ '2.10.0' ],
+40 silly audit   'react-router-dom': [ '6.23.1' ],
+40 silly audit   react: [ '18.3.1' ],
+40 silly audit   'react-dom': [ '18.3.1' ],
+40 silly audit   'loose-envify': [ '1.4.0' ],
+40 silly audit   'js-tokens': [ '4.0.0' ],
+40 silly audit   scheduler: [ '0.23.2' ],
+40 silly audit   '@remix-run/router': [ '1.16.1' ],
+40 silly audit   'react-router': [ '6.23.1' ]
+40 silly audit }
+41 verbose reify failed optional dependency C:\Users\S566466\Documents\angular Projects\scuoler\node_modules\fsevents
+42 silly reify mark deleted [
+42 silly reify   'C:\\Users\\S566466\\Documents\\angular Projects\\scuoler\\node_modules\\fsevents'
+42 silly reify ]
+43 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 589ms
+44 silly audit report {
+44 silly audit report   express: [
+44 silly audit report     {
+44 silly audit report       id: 1096820,
+44 silly audit report       url: 'https://github.com/advisories/GHSA-rv95-896h-c2vc',
+44 silly audit report       title: 'Express.js Open Redirect in malformed URLs',
+44 silly audit report       severity: 'moderate',
+44 silly audit report       vulnerable_versions: '<4.19.2',
+44 silly audit report       cwe: [Array],
+44 silly audit report       cvss: [Object]
+44 silly audit report     }
+44 silly audit report   ],
+44 silly audit report   'glob-parent': [
+44 silly audit report     {
+44 silly audit report       id: 1095007,
+44 silly audit report       url: 'https://github.com/advisories/GHSA-ww39-953v-wcq6',
+44 silly audit report       title: 'glob-parent vulnerable to Regular Expression Denial of Service in enclosure regex',
+44 silly audit report       severity: 'high',
+44 silly audit report       vulnerable_versions: '<5.1.2',
+44 silly audit report       cwe: [Array],
+44 silly audit report       cvss: [Object]
+44 silly audit report     }
+44 silly audit report   ],
+44 silly audit report   got: [
+44 silly audit report     {
+44 silly audit report       id: 1088948,
+44 silly audit report       url: 'https://github.com/advisories/GHSA-pfrx-2q88-qq97',
+44 silly audit report       title: 'Got allows a redirect to a UNIX socket',
+44 silly audit report       severity: 'moderate',
+44 silly audit report       vulnerable_versions: '<11.8.5',
+44 silly audit report       cwe: [],
+44 silly audit report       cvss: [Object]
+44 silly audit report     }
+44 silly audit report   ],
+44 silly audit report   jsonwebtoken: [
+44 silly audit report     {
+44 silly audit report       id: 1091087,
+44 silly audit report       url: 'https://github.com/advisories/GHSA-hjrf-2m68-5959',
+44 silly audit report       title: "jsonwebtoken's insecure implementation of key retrieval function could lead to Forgeable Public/Private Tokens from RSA to HMAC",
+44 silly audit report       severity: 'moderate',
+44 silly audit report       vulnerable_versions: '<=8.5.1',
+44 silly audit report       cwe: [Array],
+44 silly audit report       cvss: [Object]
+44 silly audit report     },
+44 silly audit report     {
+44 silly audit report       id: 1092549,
+44 silly audit report       url: 'https://github.com/advisories/GHSA-qwph-4952-7xr6',
+44 silly audit report       title: 'jsonwebtoken vulnerable to signature validation bypass due to insecure default algorithm in jwt.verify()',
+44 silly audit report       severity: 'moderate',
+44 silly audit report       vulnerable_versions: '<9.0.0',
+44 silly audit report       cwe: [Array],
+44 silly audit report       cvss: [Object]
+44 silly audit report     },
+44 silly audit report     {
+44 silly audit report       id: 1089434,
+44 silly audit report       url: 'https://github.com/advisories/GHSA-8cf7-32gw-wr33',
+44 silly audit report       title: 'jsonwebtoken unrestricted key type could lead to legacy keys usage ',
+44 silly audit report       severity: 'moderate',
+44 silly audit report       vulnerable_versions: '<=8.5.1',
+44 silly audit report       cwe: [Array],
+44 silly audit report       cvss: [Object]
+44 silly audit report     }
+44 silly audit report   ],
+44 silly audit report   nodemailer: [
+44 silly audit report     {
+44 silly audit report       id: 1096366,
+44 silly audit report       url: 'https://github.com/advisories/GHSA-9h6g-pr28-7cqp',
+44 silly audit report       title: 'nodemailer ReDoS when trying to send a specially crafted email',
+44 silly audit report       severity: 'moderate',
+44 silly audit report       vulnerable_versions: '<=6.9.8',
+44 silly audit report       cwe: [Array],
+44 silly audit report       cvss: [Object]
+44 silly audit report     }
+44 silly audit report   ],
+44 silly audit report   tar: [
+44 silly audit report     {
+44 silly audit report       id: 1096915,
+44 silly audit report       url: 'https://github.com/advisories/GHSA-f5x3-32g6-xq36',
+44 silly audit report       title: 'Denial of service while parsing a tar file due to lack of folders count validation',
+44 silly audit report       severity: 'moderate',
+44 silly audit report       vulnerable_versions: '<6.2.1',
+44 silly audit report       cwe: [Array],
+44 silly audit report       cvss: [Object]
+44 silly audit report     }
+44 silly audit report   ]
+44 silly audit report }
+45 warn deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+46 http fetch GET 200 https://registry.npmjs.org/express 770ms (cache hit)
+47 http fetch GET 200 https://registry.npmjs.org/got 786ms (cache hit)
+48 http fetch GET 200 https://registry.npmjs.org/glob-parent 796ms (cache hit)
+49 http fetch GET 200 https://registry.npmjs.org/tar 789ms (cache hit)
+50 http fetch GET 200 https://registry.npmjs.org/jsonwebtoken 805ms (cache hit)
+51 http fetch GET 200 https://registry.npmjs.org/nodemailer 801ms (cache hit)
+52 warn deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+53 warn deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+54 warn deprecated chokidar@2.1.8: Chokidar 2 does not receive security updates since 2019. Upgrade to chokidar 3 with 15x fewer dependencies
+55 warn deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+56 http fetch GET 200 https://registry.npmjs.org/peer 287ms (cache hit)
+57 http fetch GET 200 https://registry.npmjs.org/chokidar 114ms (cache hit)
+58 http fetch GET 200 https://registry.npmjs.org/package-json 81ms (cache hit)
+59 http fetch GET 200 https://registry.npmjs.org/@mapbox%2fnode-pre-gyp 73ms (cache hit)
+60 http fetch GET 200 https://registry.npmjs.org/nodemon 56ms (cache hit)
+61 http fetch GET 200 https://registry.npmjs.org/latest-version 47ms (cache hit)
+62 http fetch GET 200 https://registry.npmjs.org/update-notifier 44ms (cache hit)
+63 info run bcrypt@5.1.1 install node_modules/bcrypt node-pre-gyp install --fallback-to-build
+64 info run libpq@1.8.12 install node_modules/libpq node-gyp rebuild
+65 info run bcrypt@5.1.1 install { code: 0, signal: null }
+66 info run libpq@1.8.12 install { code: 1, signal: null }
+67 verbose stack Error: command failed
+67 verbose stack     at ChildProcess.<anonymous> (C:\path\to\your\project\node_modules\node_modules\npm\node_modules\@npmcli\promise-spawn\lib\index.js:53:27)
+67 verbose stack     at ChildProcess.emit (node:events:519:28)
+67 verbose stack     at maybeClose (node:internal/child_process:1105:16)
+67 verbose stack     at ChildProcess._handle.onexit (node:internal/child_process:305:5)
+68 verbose pkgid libpq@1.8.12
+69 verbose cwd C:\Users\S566466\Documents\angular Projects\scuoler
+70 verbose Windows_NT 10.0.22631
+71 verbose node v20.13.1
+72 verbose npm  v10.7.0
+73 error code 1
+74 error path C:\Users\S566466\Documents\angular Projects\scuoler\node_modules\libpq
+75 error command failed
+76 error command C:\windows\system32\cmd.exe /d /s /c node-gyp rebuild
+77 error gyp info it worked if it ends with ok
+77 error gyp info using node-gyp@10.1.0
+77 error gyp info using node@20.13.1 | win32 | x64
+77 error gyp info find Python using Python version 3.12.0 found at "C:\Python312\python.exe"
+77 error gyp info find VS using VS2019 (16.11.34114.132) found at:
+77 error gyp info find VS "C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools"
+77 error gyp info find VS run with --verbose for detailed information
+77 error gyp info spawn C:\Python312\python.exe
+77 error gyp info spawn args [
+77 error gyp info spawn args 'C:\\path\\to\\your\\project\\node_modules\\node_modules\\npm\\node_modules\\node-gyp\\gyp\\gyp_main.py',
+77 error gyp info spawn args 'binding.gyp',
+77 error gyp info spawn args '-f',
+77 error gyp info spawn args 'msvs',
+77 error gyp info spawn args '-I',
+77 error gyp info spawn args 'C:\\Users\\S566466\\Documents\\angular Projects\\scuoler\\node_modules\\libpq\\build\\config.gypi',
+77 error gyp info spawn args '-I',
+77 error gyp info spawn args 'C:\\path\\to\\your\\project\\node_modules\\node_modules\\npm\\node_modules\\node-gyp\\addon.gypi',
+77 error gyp info spawn args '-I',
+77 error gyp info spawn args 'C:\\Users\\S566466\\AppData\\Local\\node-gyp\\Cache\\20.13.1\\include\\node\\common.gypi',
+77 error gyp info spawn args '-Dlibrary=shared_library',
+77 error gyp info spawn args '-Dvisibility=default',
+77 error gyp info spawn args '-Dnode_root_dir=C:\\Users\\S566466\\AppData\\Local\\node-gyp\\Cache\\20.13.1',
+77 error gyp info spawn args '-Dnode_gyp_dir=C:\\path\\to\\your\\project\\node_modules\\node_modules\\npm\\node_modules\\node-gyp',
+77 error gyp info spawn args '-Dnode_lib_file=C:\\\\Users\\\\S566466\\\\AppData\\\\Local\\\\node-gyp\\\\Cache\\\\20.13.1\\\\<(target_arch)\\\\node.lib',
+77 error gyp info spawn args '-Dmodule_root_dir=C:\\Users\\S566466\\Documents\\angular Projects\\scuoler\\node_modules\\libpq',
+77 error gyp info spawn args '-Dnode_engine=v8',
+77 error gyp info spawn args '--depth=.',
+77 error gyp info spawn args '--no-parallel',
+77 error gyp info spawn args '--generator-output',
+77 error gyp info spawn args 'C:\\Users\\S566466\\Documents\\angular Projects\\scuoler\\node_modules\\libpq\\build',
+77 error gyp info spawn args '-Goutput_dir=.'
+77 error gyp info spawn args ]
+77 error 'pg_config' is not recognized as an internal or external command,
+77 error operable program or batch file.
+77 error gyp: Call to 'pg_config --libdir' returned exit status 1 while in binding.gyp. while trying to load binding.gyp
+77 error gyp ERR! configure error 
+77 error gyp ERR! stack Error: `gyp` failed with exit code: 1
+77 error gyp ERR! stack at ChildProcess.<anonymous> (C:\path\to\your\project\node_modules\node_modules\npm\node_modules\node-gyp\lib\configure.js:297:18)
+77 error gyp ERR! stack at ChildProcess.emit (node:events:519:28)
+77 error gyp ERR! stack at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+77 error gyp ERR! System Windows_NT 10.0.22631
+77 error gyp ERR! command "C:\\Program Files\\nodejs\\node.exe" "C:\\path\\to\\your\\project\\node_modules\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js" "rebuild"
+77 error gyp ERR! cwd C:\Users\S566466\Documents\angular Projects\scuoler\node_modules\libpq
+77 error gyp ERR! node -v v20.13.1
+77 error gyp ERR! node-gyp -v v10.1.0
+77 error gyp ERR! not ok
+78 verbose exit 1
+79 verbose code 1
+80 silly unfinished npm timer reify 1715662845940
+81 silly unfinished npm timer reify:build 1715662855475
+82 silly unfinished npm timer build 1715662855477
+83 silly unfinished npm timer build:deps 1715662855478
+84 silly unfinished npm timer build:run:install 1715662855674
+85 silly unfinished npm timer build:run:install:node_modules/libpq 1715662855753
+86 error A complete log of this run can be found in: C:\Users\s566466\f23wa26bathala\npm-cache\_logs\2024-05-14T05_00_45_474Z-debug-0.log

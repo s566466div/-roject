@@ -1,0 +1,18 @@
+'Log files:
+C:\Users\s566466\f23wa26bathala\npm-cache\_logs\2024-05-05T05_40_38_627Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: e-learning-platform@0.0.0
+Found: @angular/compiler@7.1.4
+node_modules/@angular/compiler
+  @angular/compiler@"~7.1.0" from the root project
+
+Could not resolve dependency:
+peer @angular/compiler@"17.3.7" from @angular/compiler-cli@17.3.7
+node_modules/@angular/compiler-cli
+  dev @angular/compiler-cli@"17.3.7" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.
